@@ -1,0 +1,3 @@
+[run]
+source = evobrain
+omit = evobrain/tests/*

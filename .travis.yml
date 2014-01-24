@@ -11,6 +11,7 @@ before_script:
   - pyflakes -x W evobrain
 script:
   - coverage run manage.py test
+  - coverage report
 after_success:
   - coveralls
 
