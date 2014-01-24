@@ -10,7 +10,7 @@ before_script:
   - "pep8 --exclude=migrations --ignore=E501,E225,E128 evobrain"
   - pyflakes -x W evobrain
 script:
-  - coverage run python manage.py test
+  - coverage run manage.py test
 after_success:
   - coveralls
 
