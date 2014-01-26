@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'twitter_bootstrap',
     'south',
+    'evobrain_web', 
 )
 
 MIDDLEWARE_CLASSES = (
